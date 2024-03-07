@@ -1,0 +1,195 @@
+@font-face{
+    src:url("../fonts/IranSans.ttf");
+    font-family:sans;
+}
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    font-family:sans;
+}
+.container{
+    width: 1170px;
+    margin:0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: center;
+} 
+#holderHeader{
+    height:110px;
+}
+#header {
+    border-bottom:1px solid #f2f2f2;
+    height:110px;
+    width: 100%;
+
+    position: fixed;
+    background: #fff;
+     z-index:1000;  
+}
+#header >.top{
+    border-bottom:1px solid #f2f2f2;
+    display:flex; 
+    justify-content:center;
+    height:35px;
+    background:url(../img/_TopCampain1357388149.jpg);
+    /* background-color: #2e003f; */           
+}       
+#header>.center{
+    border-bottom:1px solid #f2f2f2;
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: center;          
+    height:35px;
+    cursor: pointer;
+}
+#header>.center > div {
+    border-right:  1px solid #f2f2f2;
+    height: 100%;
+    /* line-height: 20px;  */
+    /* white-space: nowrap; */
+}
+#header>.center img {           
+    margin-top: 6px;
+} 
+#header>.center>.basket> img {           
+    margin-right: 5px;
+}
+
+#header>.center>.sign> img {           
+    margin-right:35px; 
+} 
+/* #header>.center>.order> img {           
+margin-right:12px; 
+}   */
+#header>.center>.phone> img {           
+    margin-right: 15px;
+}   
+#header>.center p{
+    margin:-20px 25px 0 0  ; 
+    /* line-height: 20px; */
+    font-size: 13px;
+    white-space: nowrap; 
+    color: #808080;
+    text-align: center;
+}
+#header >.center >.basket {
+    width:100px;
+}
+#header >.center >.sign {
+    width:180px;
+}
+#header >.center >.order {
+    width:115px;
+}
+#header >.center >.phone {
+    width:145px;
+}
+#header >.center >.search {
+    width:280px;
+}
+#header >.center >.social:hover {
+
+    /* background-color:#a0f; */
+    background-color:#8e44ad;
+}
+#header >.center >.social {
+    transition: 0.3s;
+    width:40px;
+    text-align: center;
+}      
+#header>.center>div.twitter{
+    border-left:1px solid #f2f2f2;
+} 
+#header >.bottom{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+       /* gg */
+ position: relative;  
+ /* height:35px; */
+ 
+}
+#header >.bottom >#menu{
+
+    display: flex;
+    flex-flow: row nowrap; 
+    font-size: 13px;
+    color: #8D8D8D;
+    margin-right:-42px;    
+    font:bold;
+}
+#header > .bottom> #menu>.subMenu:hover{
+    /* background-color:#a0f; */
+    background-color:#8e44ad;
+    color:#fff;
+    cursor:pointer;
+    border-radius:0 0 5px 5px; 
+
+    /* gg */
+    transition:0.2s;
+
+}
+
+#header>.bottom>#menu>div.subMenu{
+    transition: 0.3s;
+    margin: 7px 0 ;
+    padding:3px  9px;
+    box-sizing: border-box;
+    font-weight: bold;
+    z-index: 1001;
+}       
+#header > .bottom> #menu >.sub1{
+    color:#8D8D8D;
+}
+#header > .bottom> #menu >.sub2{
+    color:#a0f;
+}
+#header > .bottom> #menu >.subEnd{
+    color:#E040FB;
+}
+#header > .bottom> #arm > img{
+position:relative;
+    left:-55px;   
+    padding-bottom:2px 0;
+    width:160px;
+    height:37px;
+}
+#header> .bottom> #menu>.subMenu:hover>.DivTriangle{
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    border-top: 5px solid rgba(0,0,0,0); 
+
+    position: relative;
+    bottom: -3px;        
+    margin: auto;
+    right: 0;
+    width: 0; 
+   /* clear: both;  */
+}
+
+#header > .bottom> #menu>.subMenu:hover>.divHov{
+    top:37px;
+    opacity:1;
+    visibility:visible;
+}         
+#header> .bottom> #menu>.subMenu>.divHov{
+    transition:0.5s;
+    opacity:0;
+    visibility:hidden;
+    position:absolute;
+    top:150px;
+ 
+    background-color: #fdf9ff;
+    border: 1px solid #dcdcdc;
+    border-top: 3px solid #8e44ad;
+    display: inline-block;
+    height: 300px;
+    padding: 15px 10px;
+    width:100%;
+    z-index: 100;
+
+    /* gg */
+    right: 0;
+}

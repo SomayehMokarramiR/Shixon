@@ -1,0 +1,160 @@
+#footer{
+    /* background-attachment:fixed;
+    background-position:50% 0  ; */
+    border-bottom:1px solid #f2f2f2;
+    background: url(../img/footer/footerbackimg.jpg) 50% 0  fixed;    
+    filter: brightness(80%);     
+}  
+/* *********************************** */
+#footer > .imgReg{
+    /* background-color: cyan;  */
+    position: relative;      
+    top:20%; 
+
+    text-align: center;
+    width:400px;
+    margin: 0 auto;                
+}
+ #footer > .registerfoot {
+    /* background-color: red;  */
+    position: relative;      
+    top:20%; 
+
+    width:304px;
+    margin: 0 auto; 
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff; 
+    white-space: nowrap; 
+    font: bold;
+ }
+ #footer > .registerbtnFoot {
+    position: relative;      
+    top:22%; 
+    margin: 0 auto; 
+ }
+#footer > .registerbtnFoot:hover {
+    cursor: pointer;
+    border-radius: 0;
+}
+  #footer > .registerbtnFoot {
+    transition: 0.5s;
+    width: 120px; 
+    background-color: #67cbc5; 
+    color: #fff; 
+    border-color: #67cbc5;
+    border-radius: 50px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align:middle;
+  }
+/* *********************************** */
+#footer>.blackFoot{
+    position: relative;
+    top:30px;
+    background-color: #18181a; 
+    border-bottom: 1px solid #0c0c0c;
+    color: #fff;
+
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: center;  
+}
+
+.menuFooter> ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+ }
+ 
+#footer>.blackFoot>.container>.menuFooter> ul>li
+{
+    color: #bbb;
+    font-size: 12px;  
+    padding: 2px 0;    
+}
+#footer>.blackFoot>.container{
+    padding-top: 50px;
+}
+#footer>.blackFoot>.container>.menuFooter >ul>li.title
+{
+    color: #fff;         
+}
+#footer>.blackFoot>.container>.advantage{
+    margin-right:100px; 
+}
+
+#footer>.blackFoot>.container>.menuFoot1{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    float: right;
+    margin-left: 50px;
+}
+#footer>.blackFoot>.container>.menuFoot2{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    float: right;
+    margin-left: 50px;
+}
+#footer>.blackFoot>.container>.advantage{
+    width: 500px; 
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-left: 35px;
+    
+}
+#footer>.blackFoot>.container>.advantage>.topadavantage>div{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+#footer>.blackFoot>.container>.advantage>.bottomadavantage>div{
+    display: flex;
+    flex-flow: row nowrap;
+
+}  
+
+#footer>.blackFoot>.container>.logoFooter{
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-left: 50px;
+}
+#footer>.blackFoot>.container>.logoFooter img{
+
+width: 180px;
+height: 195px;
+}
+ 
+/* **************************************************** */
+#footer >.copyrights{
+    background-color: #0c0c0c;
+    border-top: 1px solid #18181a;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    top: 50%;
+    white-space: nowrap;
+}
+#footer>.copyrights a:hover{
+    color: #8a8787;
+    cursor: pointer;
+}
+#footer>.copyrights a{
+    color: #c3c3c3;
+    font-size: 11px;
+}  
+
